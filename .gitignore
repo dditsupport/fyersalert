@@ -1,0 +1,23 @@
+# Credentials — never commit
+fyers_token.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Local tooling
+.claude/settings.local.json
+
+# Secrets file (Fyers keys + dashboard password) — use api_secrets.example.json
+api_secrets.json
+
+# Runtime
+logs/
+config_.py

@@ -1,0 +1,4 @@
+fyers-apiv3
+flask
+requests
+winotify; sys_platform == "win32"
